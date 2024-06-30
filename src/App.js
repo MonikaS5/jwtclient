@@ -16,7 +16,7 @@ const App = () => {
            
             {loggedInUser ? (
                 <div className='mt-5 container container-fluid border border-secondary p-5 col-sm-3 justify-content-center'>
-                    <h2>Welcome <span className='text-capitalize'>{loggedInUser.username}!</span></h2>
+                    <h2>Welcome <span className='text-capitalize text-primary'>{loggedInUser.username}!</span></h2>
                     <p>Email: {loggedInUser.email}</p>
                     
                     <button onClick={handleLogout} className='btn btn-primary p-2 m-2'>Logout</button>

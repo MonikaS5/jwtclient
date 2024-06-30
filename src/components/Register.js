@@ -54,7 +54,7 @@ const Register = () => {
             </div>
 
           </form>
-          <p className=" text-success">{message}</p>
+          <p className=" text-primary">{message}</p>
           
           
         </div>
