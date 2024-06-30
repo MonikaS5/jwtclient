@@ -60,7 +60,7 @@ const Login = ({ setLoggedInUser }) => {
             </div>
             
           </form>
-          <p className=" text-primary">{message}</p>
+          <p className=" text-success">{message}</p>
         </div>
 
     );
