@@ -21,7 +21,7 @@ const Login = ({ setLoggedInUser }) => {
         e.preventDefault();
         try {
             const res = 
-                await axios.post('https://jwtauth-lii2.onrender.com/api/auth/login', 
+                await axios.post('https://jwtserver-195j.onrender.com/api/auth/login', 
             {
                
                 email,

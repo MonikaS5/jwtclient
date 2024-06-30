@@ -18,7 +18,7 @@ const Register = () => {
     const handleSubmit = async e => {
         e.preventDefault();
         try {
-            await axios.post('https://jwtauth-lii2.onrender.com/api/auth/register', {
+            await axios.post('https://jwtserver-195j.onrender.com/api/auth/register', {
                 username,
                 email,
                 password
